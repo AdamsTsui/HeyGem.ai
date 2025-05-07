@@ -34,7 +34,8 @@ export const commonZh = {
   banner1: {
     title: '快速定制模特',
     subTitle: '只需一个视频快速定制',
-    buttonText: '快速定制'
+    buttonText: '数字模特',
+    buttonText1: '快速定制'
   },
   videoList: {
     previewTitle: '预览视频',
@@ -75,12 +76,12 @@ export const commonZh = {
     initEditVideoPageFailed: '初始化视频编辑页面失败，请稍后再试'
   },
   modelCreateView: {
-    headerTitle: '极速定制',
+    headerTitle: '数字模特',
     submitButtonText: '提交定制',
     avatarNameText: '模特名称',
     isUploading: '正在上传中...',
     tipsText: '点击上传拍摄好的原始视频',
-    uploadVideoText: '上传视频',
+    uploadVideoText: '选择视频',
     guideTitle: '标准示例',
     okRulesLi1: '1.视频时长最少8秒,说话吐字清晰；',
     okRulesLi2: '2.视频前后有且只有同一个人；',
@@ -175,7 +176,8 @@ export const commonEn = {
   banner1: {
     title: 'Create Avatar',
     subTitle: 'Upload a video to generate your own digital avatar.',
-    buttonText: 'Create Avatar'
+    buttonText: 'Digital Model',
+    buttonText1: 'Create Avatar'
   },
   videoList: {
     previewTitle: 'Preview',
@@ -216,12 +218,12 @@ export const commonEn = {
     initEditVideoPageFailed: 'Failed to initialize video editing page, please try again later'
   },
   modelCreateView: {
-    headerTitle: 'Rapid customization',
+    headerTitle: 'Digital Model',
     submitButtonText: 'Submit',
     avatarNameText: 'Avatar Name',
     isUploading: 'Uploading...',
     tipsText: 'Click to Upload the Video',
-    uploadVideoText: 'Upload Video',
+    uploadVideoText: 'Select Video',
     guideTitle: 'Example',
     okRulesLi1: '1.Video length ≥ 8s. ',
     okRulesLi2: '2.Only one person should appear in the video.',

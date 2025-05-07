@@ -16,7 +16,7 @@
         <div class="h1">{{$t('common.banner1.buttonText') }}</div>
         <div class="text" :style="locale === 'zh' ? '' : ' width: 60%;'">{{$t('common.banner1.subTitle') }}</div>
         <div class="link">
-          <div class="link-text" :style="locale === 'en' ?  'font-size: 12px;' : ''">{{$t('common.banner1.buttonText') }}</div>
+          <div class="link-text" :style="locale === 'en' ?  'font-size: 12px;' : ''">{{$t('common.banner1.buttonText1') }}</div>
           <img src="../../../assets/images/home/go.svg" />
         </div>
       </div>
