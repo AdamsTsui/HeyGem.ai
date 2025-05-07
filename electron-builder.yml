@@ -1,5 +1,5 @@
-appId: com.heygem.app
-productName: HeyGem
+appId: szreach.com
+productName: ReachAIMan
 directories:
   buildResources: build
 files:
@@ -11,7 +11,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: HeyGem
+  executableName: ReachAIMan
 nsis:
   oneClick: false
   allowElevation: true
