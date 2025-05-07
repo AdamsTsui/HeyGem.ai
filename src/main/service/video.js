@@ -119,12 +119,12 @@ export async function synthesisVideo(videoId) {
 
     // 调用视频生成接口生成视频
     let result, param
-    if (process.env.NODE_ENV === 'development') {
+    /*if (process.env.NODE_ENV === 'development') {
       // 写死调试
       ({ result, param } = await makeVideoByF2F('test.wav', 'test.mp4'))
-    } else {
+    } else {*/
       ({ result, param } = await makeVideoByF2F(audioPath, model.video_path))
-    }
+    // }
 
     log.debug('~ makeVideo ~ result, param:', result, param)
 
@@ -185,12 +185,12 @@ export async function loopPending() {
     }else if (statusRes.data.status === 2) { // 合成成功
       // ffmpeg 获取视频时长
       let duration
-      if(process.env.NODE_ENV === 'development'){
+      /*if(process.env.NODE_ENV === 'development'){
         duration = 88
-      }else{
+      }else{*/
         const resultPath = path.join(assetPath.model, statusRes.data.result)
         duration = await getVideoDuration(resultPath)
-      }
+      // }
 
       update({
         id: video.id,

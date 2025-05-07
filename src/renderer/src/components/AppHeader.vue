@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header-left">
-      <img class="logo" src="@renderer/assets/images/icons/logo.png" alt="logo" />
+      <img class="logo" src="../assets/images/icons/logo.png" alt="logo" />
     </div>
     <div class="header-right">
       <t-dropdown :maxColumnWidth="false" :min-column-width="88" panel-top-content="" placement="bottom-right"
